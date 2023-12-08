@@ -14,7 +14,7 @@ let chute = pompt ("escolha um número entre 1 e 30:");
 
 // Se o chute for certo:
 if(chute == numeroSecreto) {
-   aler ( `Isso ai! Você descobriu o número secreto ${numeroSecreto}` )
+   alert( `Isso ai! Você descobriu o número secreto ${numeroSecreto}` )
 }
 // Se o chute não dê certol:
 else {
@@ -22,4 +22,7 @@ else {
 } ;//Dentro dos () -> bota-se o que quer comparar
 // Dentro do {} -> bota-se aquilo que caso for comparado de certo
 
-// Não precisa usar aspas para usar variaveis
+// Não precisa usar aspas para usar 
+
+/*! quando o projeto ficar disponível para todas as pessoas, o que chamamos no contexto de software de ambiente de produção, os
+comandos console.log devem ser removidos ou desabilitados, pois podem causar problemas de desempenho e segurança.*/
